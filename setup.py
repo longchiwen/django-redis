@@ -21,7 +21,7 @@ setup(
     description=description.strip(),
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
     install_requires=[
-        "Django>=1.11",
+        "Django>=1.8.0",
         "redis>=2.10.0",
     ],
     zip_safe=False,
@@ -33,6 +33,8 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
+        "Framework :: Django :: 1.8",
+        "Framework :: Django :: 1.10",
         "Framework :: Django :: 1.11",
         "Framework :: Django :: 2.0",
         "Framework :: Django :: 2.1",
